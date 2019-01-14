@@ -15,7 +15,7 @@ public class APIClient {
     public static void main(String[] args) throws
             ProtocolException, IOException {
 
-        String url = "https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=Museum%20of%20Contemporary%20Art%20Australia&inputtype=textquery&fields=formatted_address,rating&key=AIzaSyAPsxpoHBTwxxdzxEneVpInEwH0jKHR8ps";
+        String url = "https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=Museum%20of%20Contemporary%20Art%20Australia&inputtype=textquery&fields=formatted_address,rating&key=";
 
         try {
 
